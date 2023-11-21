@@ -1,3 +1,11 @@
+aug anchor_color
+    au!
+    au ColorScheme * hi AnchorColor ctermfg=204
+aug END
+
+hi AnchorColor ctermfg=204
+
+
 let s:anc_tid = 0
 
 fu! anchor5#anchor_set() abort

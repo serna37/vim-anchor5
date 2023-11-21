@@ -1,5 +1,3 @@
-hi AnchorColor ctermfg=204
-
 noremap <silent><Plug>(anchor) :<C-u>cal anchor5#anchor_set()<CR>
 
 nnoremap <Tab> 5j<Plug>(anchor)
