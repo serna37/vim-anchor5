@@ -7,8 +7,6 @@ hi AnchorColor ctermfg=204
 
 noremap <silent><Plug>(anchor) :<C-u>cal anchor5#anchor_set()<CR>
 
-let g:anchor_5_char = '➤'
-
 nnoremap <Tab> 5j<Plug>(anchor)
 nnoremap <S-Tab> 5k<Plug>(anchor)
 nnoremap H H<Plug>(anchor)
