@@ -1,10 +1,10 @@
-aug anchor_color
-    au!
-    au ColorScheme * hi AnchorColor ctermfg=204
-aug END
-
-hi AnchorColor ctermfg=204
-
+if execute('sil! hi AnchorColor') =~ 'E411'
+    aug anchor_color
+        au!
+        au ColorScheme * hi AnchorColor ctermfg=204
+    aug END
+    hi AnchorColor ctermfg=204
+endif
 
 let s:anc_tid = 0
 
