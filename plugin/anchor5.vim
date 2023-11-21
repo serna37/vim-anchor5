@@ -1,8 +1,3 @@
-aug anchor_color
-    au!
-    au ColorScheme * hi AnchorColor ctermfg=204
-aug END
-
 hi AnchorColor ctermfg=204
 
 noremap <silent><Plug>(anchor) :<C-u>cal anchor5#anchor_set()<CR>
