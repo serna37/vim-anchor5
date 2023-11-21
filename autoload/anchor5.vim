@@ -7,7 +7,7 @@ aug END
 let s:anc_tid = 0
 
 fu! anchor5#anchor_set() abort
-    cal sign_define('anch', #{text: g:anchor_5_char, texthl: AnchorColor})
+    cal sign_define('anch', #{text: g:anchor_5_char, texthl: 'AnchorColor'})
     cal timer_stop(s:anc_tid)
     cal sign_unplace('anchor')
     let l = line('.')
