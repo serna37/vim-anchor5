@@ -1,9 +1,3 @@
-aug anchor_color
-    au!
-    au ColorScheme * hi AnchorColor ctermfg=204
-aug END
-
-
 let s:anc_tid = 0
 
 fu! anchor5#anchor_set() abort
