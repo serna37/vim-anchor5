@@ -23,7 +23,12 @@ nnoremap <S-Tab> 5k<Plug>(anchor)
 nnoremap H H<Plug>(anchor)
 nnoremap M M<Plug>(anchor)
 nnoremap L L<Plug>(anchor)
-```
+
+inoremap <Tab> 5j<Plug>(anchor)
+inoremap <S-Tab> 5k<Plug>(anchor)
+inoremap H H<Plug>(anchor)
+inoremap M M<Plug>(anchor)
+inoremap L L<Plug>(anchor)```
 
 ## disable default keymap
 ```vim

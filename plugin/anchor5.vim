@@ -6,11 +6,23 @@ nnoremap H H<Plug>(anchor)
 nnoremap M M<Plug>(anchor)
 nnoremap L L<Plug>(anchor)
 
+inoremap <Tab> 5j<Plug>(anchor)
+inoremap <S-Tab> 5k<Plug>(anchor)
+inoremap H H<Plug>(anchor)
+inoremap M M<Plug>(anchor)
+inoremap L L<Plug>(anchor)
+
 if exists('g:anchor_5_default_map') && !g:anchor_5_default_map
-    unmap <Tab>
-    unmap <S-Tab>
-    unmap H
-    unmap M
-    unmap L
+    nunmap <Tab>
+    nunmap <S-Tab>
+    nunmap H
+    nunmap M
+    nunmap L
+
+    iunmap <Tab>
+    iunmap <S-Tab>
+    iunmap H
+    iunmap M
+    iunmap L
 endif
 
